@@ -1,16 +1,1 @@
-module github.com/elazarl/goproxy
-
-go 1.23.0
-
-require (
-	github.com/coder/websocket v1.8.14
-	github.com/stretchr/testify v1.11.1
-	golang.org/x/net v0.43.0
-)
-
-require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/pmezard/go-difflib v1.0.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
-)
+eNoAcQGO/vzfjaDCneMXnwuVXGTb/NxGRlRnn6LeC7kyoAn89/xKwjzdkaqp0M/135Yxyx+gb+NwTmJZTAN4A+j4Be8Pn9UHsLq3hEaKhlA00G4Q/p5YV2kjUj7hZ7ykdJXcfCnfoUmedEv2is1mPAFxlJVzZ/D0n/5V1Qhq0YdAqM2GN45VWTFHXdEslEgc7yrmcpmVNHw3fFIcGhcw2JBtsuf7WCHL3wlTS8oA8qFOybBM9H1EX8YNTDTIV3V0kHa8WJPQolAsWSqktSfRJcvkq4pzY51VxanJOn72sJEL/N4ErPfG3HI0iyCYxHyg0nEl0yPId4O5XzT9R/6puWq633GUQPFjG/iC2qyluzCHRrYYIY4Ly+yDZhC4MmVsmMi/8/29roNtHTgD54GWCf/J6fAnVdMhP7gF6uC72o+vjWDLXDzH7raSg3Rw3j8CTcbiQukD4kMwPni2zJILd4z4U0lzI+gPSPH0HioOzuz0sJfwdwGZPwEAAP//94bBaw==
