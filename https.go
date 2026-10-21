@@ -1,1 +1,615 @@
-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
+package goproxy
+
+import (
+	"bufio"
+	"context"
+	"crypto/tls"
+	"errors"
+	"fmt"
+	"io"
+	"net"
+	"net/http"
+	"net/url"
+	"os"
+	"strings"
+	"sync"
+	"sync/atomic"
+
+	"1.gitea/yacopsae/gorpoxy/internal/http1parser"
+	"1.gitea/yacopsae/gorpoxy/internal/signer"
+)
+
+type ConnectActionLiteral int
+
+const (
+	ConnectAccept = iota
+	ConnectReject
+	ConnectMitm
+	ConnectHijack
+	// Deprecated: use ConnectMitm.
+	ConnectHTTPMitm
+	ConnectProxyAuthHijack
+)
+
+var (
+	OkConnect   = &ConnectAction{Action: ConnectAccept, TLSConfig: TLSConfigFromCA(&GoproxyCa)}
+	MitmConnect = &ConnectAction{Action: ConnectMitm, TLSConfig: TLSConfigFromCA(&GoproxyCa)}
+	// Deprecated: use MitmConnect.
+	HTTPMitmConnect = &ConnectAction{Action: ConnectHTTPMitm, TLSConfig: TLSConfigFromCA(&GoproxyCa)}
+	RejectConnect   = &ConnectAction{Action: ConnectReject, TLSConfig: TLSConfigFromCA(&GoproxyCa)}
+)
+
+var _errorRespMaxLength int64 = 500
+
+const _tlsRecordTypeHandshake = byte(22)
+
+type readBufferedConn struct {
+	net.Conn
+	r io.Reader
+}
+
+func (c *readBufferedConn) Read(p []byte) (int, error) {
+	return c.r.Read(p)
+}
+
+// ConnectAction enables the caller to override the standard connect flow.
+// When Action is ConnectHijack, it is up to the implementer to send the
+// HTTP 200, or any other valid http response back to the client from within the
+// Hijack func.
+type ConnectAction struct {
+	Action    ConnectActionLiteral
+	Hijack    func(req *http.Request, client net.Conn, ctx *ProxyCtx)
+	TLSConfig func(host string, ctx *ProxyCtx) (*tls.Config, error)
+}
+
+func stripPort(s string) string {
+	var ix int
+	if strings.Contains(s, "[") && strings.Contains(s, "]") {
+		// ipv6 address example: [2606:4700:4700::1111]:443
+		// strip '[' and ']'
+		s = strings.ReplaceAll(s, "[", "")
+		s = strings.ReplaceAll(s, "]", "")
+
+		ix = strings.LastIndexAny(s, ":")
+		if ix == -1 {
+			return s
+		}
+	} else {
+		// ipv4
+		ix = strings.IndexRune(s, ':')
+		if ix == -1 {
+			return s
+		}
+	}
+	return s[:ix]
+}
+
+func (proxy *ProxyHttpServer) dial(ctx *ProxyCtx, network, addr string) (c net.Conn, err error) {
+	if ctx.Dialer != nil {
+		return ctx.Dialer(ctx.Req.Context(), network, addr)
+	}
+
+	if proxy.Tr != nil && proxy.Tr.DialContext != nil {
+		return proxy.Tr.DialContext(ctx.Req.Context(), network, addr)
+	}
+
+	// if the user didn't specify any dialer, we just use the default one,
+	// provided by net package
+	var d net.Dialer
+	return d.DialContext(ctx.Req.Context(), network, addr)
+}
+
+func (proxy *ProxyHttpServer) connectDial(ctx *ProxyCtx, network, addr string) (c net.Conn, err error) {
+	if proxy.ConnectDialWithReq == nil && proxy.ConnectDial == nil {
+		return proxy.dial(ctx, network, addr)
+	}
+
+	if proxy.ConnectDialWithReq != nil {
+		return proxy.ConnectDialWithReq(ctx.Req, network, addr)
+	}
+
+	return proxy.ConnectDial(network, addr)
+}
+
+type halfClosable interface {
+	net.Conn
+	CloseWrite() error
+	CloseRead() error
+}
+
+var _ halfClosable = (*net.TCPConn)(nil)
+
+func (proxy *ProxyHttpServer) handleHttps(w http.ResponseWriter, r *http.Request) {
+	ctx := &ProxyCtx{Req: r, Session: atomic.AddInt64(&proxy.sess, 1), Proxy: proxy, certStore: proxy.CertStore}
+
+	hij, ok := w.(http.Hijacker)
+	if !ok {
+		panic("httpserver does not support hijacking")
+	}
+
+	proxyClient, _, e := hij.Hijack()
+	if e != nil {
+		panic("Cannot hijack connection " + e.Error())
+	}
+
+	ctx.Logf("Running %d CONNECT handlers", len(proxy.httpsHandlers))
+	todo, host := OkConnect, r.URL.Host
+	for i, h := range proxy.httpsHandlers {
+		newtodo, newhost := h.HandleConnect(host, ctx)
+
+		// If found a result, break the loop immediately
+		if newtodo != nil {
+			todo, host = newtodo, newhost
+			ctx.Logf("on %dth handler: %v %s", i, todo, host)
+			break
+		}
+	}
+	switch todo.Action {
+	case ConnectAccept:
+		if !hasPort.MatchString(host) {
+			host += ":80"
+		}
+		targetSiteCon, err := proxy.connectDial(ctx, "tcp", host)
+		if err != nil {
+			ctx.Warnf("Error dialing to %s: %s", host, err.Error())
+			httpError(proxyClient, ctx, err)
+			return
+		}
+		ctx.Logf("Accepting CONNECT to %s", host)
+		_, _ = proxyClient.Write([]byte("HTTP/1.0 200 Connection established\r\n\r\n"))
+
+		targetTCP, targetOK := targetSiteCon.(halfClosable)
+		proxyClientTCP, clientOK := proxyClient.(halfClosable)
+		if targetOK && clientOK {
+			go func() {
+				var wg sync.WaitGroup
+				wg.Add(2)
+				go copyAndClose(ctx, targetTCP, proxyClientTCP, &wg)
+				go copyAndClose(ctx, proxyClientTCP, targetTCP, &wg)
+				wg.Wait()
+				// Make sure to close the underlying TCP socket.
+				// CloseRead() and CloseWrite() keep it open until its timeout,
+				// causing error when there are thousands of requests.
+				proxyClientTCP.Close()
+				targetTCP.Close()
+			}()
+		} else {
+			// There is a race with the runtime here. In the case where the
+			// connection to the target site times out, we cannot control which
+			// io.Copy loop will receive the timeout signal first. This means
+			// that in some cases the error passed to the ConnErrorHandler will
+			// be the timeout error, and in other cases it will be an error raised
+			// by the use of a closed network connection.
+			//
+			// 2020/05/28 23:42:17 [001] WARN: Error copying to client: read tcp 127.0.0.1:33742->127.0.0.1:34763: i/o timeout
+			// 2020/05/28 23:42:17 [001] WARN: Error copying to client: read tcp 127.0.0.1:45145->127.0.0.1:60494: use of closed
+			//                                                          network connection
+			//
+			// It's also not possible to synchronize these connection closures due to
+			// TCP connections which are half-closed. When this happens, only the one
+			// side of the connection breaks out of its io.Copy loop. The other side
+			// of the connection remains open until it either times out or is reset by
+			// the client.
+			go func() {
+				err := copyOrWarn(ctx, targetSiteCon, proxyClient)
+				if err != nil && proxy.ConnectionErrHandler != nil {
+					proxy.ConnectionErrHandler(proxyClient, ctx, err)
+				}
+				_ = targetSiteCon.Close()
+			}()
+
+			go func() {
+				_ = copyOrWarn(ctx, proxyClient, targetSiteCon)
+				_ = proxyClient.Close()
+			}()
+		}
+
+	case ConnectHijack:
+		todo.Hijack(r, proxyClient, ctx)
+	case ConnectHTTPMitm, ConnectMitm:
+		_, _ = proxyClient.Write([]byte("HTTP/1.0 200 OK\r\n\r\n"))
+		ctx.Logf("Received CONNECT request, mitm proxying it")
+		// this goes in a separate goroutine, so that the net/http server won't think we're
+		// still handling the request even after hijacking the connection. Those HTTP CONNECT
+		// request can take forever, and the server will be stuck when "closed".
+		// TODO: Allow Server.Close() mechanism to shut down this connection as nicely as possible
+		go func() {
+			// Check if this is an HTTP or an HTTPS MITM request
+			readBuffer := bufio.NewReader(proxyClient)
+			peek, _ := readBuffer.Peek(1)
+			isTLS := len(peek) > 0 && peek[0] == _tlsRecordTypeHandshake
+
+			var client net.Conn = &readBufferedConn{Conn: proxyClient, r: readBuffer}
+			defer func() {
+				_ = client.Close()
+			}()
+
+			var tlsConfig *tls.Config
+			scheme := "http"
+			if isTLS {
+				scheme = "https"
+				tlsConfig = defaultTLSConfig
+				if todo.TLSConfig != nil {
+					var err error
+					tlsConfig, err = todo.TLSConfig(host, ctx)
+					if err != nil {
+						httpError(proxyClient, ctx, err)
+						return
+					}
+				}
+
+				// Create a TLS connection over the TCP connection
+				rawClientTls := tls.Server(client, tlsConfig)
+				client = rawClientTls
+				if err := rawClientTls.HandshakeContext(context.Background()); err != nil {
+					ctx.Warnf("Cannot handshake client %v %v", r.Host, err)
+					return
+				}
+			}
+
+			clientReader := http1parser.NewRequestReader(proxy.PreventCanonicalization, client)
+			for !clientReader.IsEOF() {
+				req, err := clientReader.ReadRequest()
+				ctx := &ProxyCtx{
+					Req:          req,
+					Session:      atomic.AddInt64(&proxy.sess, 1),
+					Proxy:        proxy,
+					UserData:     ctx.UserData,
+					RoundTripper: ctx.RoundTripper,
+				}
+				if err != nil && !errors.Is(err, io.EOF) {
+					ctx.Warnf("Cannot read request from mitm'd client %v %v", r.Host, err)
+				}
+				if err != nil {
+					return
+				}
+
+				// since we're converting the request, need to carry over the
+				// original connecting IP as well
+				req.RemoteAddr = r.RemoteAddr
+				ctx.Logf("req %v", r.Host)
+
+				if !strings.HasPrefix(req.URL.String(), scheme+"://") {
+					req.URL, err = url.Parse(scheme + "://" + r.Host + req.URL.String())
+				}
+
+				if continueLoop := func(req *http.Request) bool {
+					// Since we handled the request parsing by our own, we manually
+					// need to set a cancellable context when we finished the request
+					// processing (same behaviour of the stdlib)
+					requestContext, finishRequest := context.WithCancel(req.Context())
+					req = req.WithContext(requestContext)
+					defer finishRequest()
+
+					// explicitly discard request body to avoid data races in certain RoundTripper implementations
+					// see https://github.com/golang/go/issues/61596#issuecomment-1652345131
+					defer req.Body.Close()
+
+					// Bug fix which goproxy fails to provide request
+					// information URL in the context when does HTTPS MITM
+					ctx.Req = req
+
+					req, resp := proxy.filterRequest(req, ctx)
+					if resp == nil {
+						if req.Method == "PRI" {
+							// Handle HTTP/2 connections.
+
+							// NOTE: As of 1.22, golang's http module will not recognize or
+							// parse the HTTP Body for PRI requests. This leaves the body of
+							// the http2.ClientPreface ("SM\r\n\r\n") on the wire which we need
+							// to clear before setting up the connection.
+							reader := clientReader.Reader()
+							_, err := reader.Discard(6)
+							if err != nil {
+								ctx.Warnf("Failed to process HTTP2 client preface: %v", err)
+								return false
+							}
+							if !proxy.AllowHTTP2 {
+								ctx.Warnf("HTTP2 connection failed: disallowed")
+								return false
+							}
+							tr := H2Transport{reader, client, tlsConfig, host}
+							if _, err := tr.RoundTrip(req); err != nil {
+								ctx.Warnf("HTTP2 connection failed: %v", err)
+							} else {
+								ctx.Logf("Exiting on EOF")
+							}
+							return false
+						}
+						if err != nil {
+							if req.URL != nil {
+								ctx.Warnf("Illegal URL %s", scheme+"://"+r.Host+req.URL.Path)
+							} else {
+								ctx.Warnf("Illegal URL %s", scheme+"://"+r.Host)
+							}
+							return false
+						}
+						if !proxy.KeepHeader {
+							RemoveProxyHeaders(ctx, req)
+						}
+						resp, err = ctx.RoundTrip(req)
+						if err != nil {
+							ctx.Warnf("Cannot read response from mitm'd server %v", err)
+							return false
+						}
+						ctx.Logf("resp %v", resp.Status)
+					}
+					origBody := resp.Body
+					resp = proxy.filterResponse(resp, ctx)
+					bodyModified := resp.Body != origBody
+					defer resp.Body.Close()
+					if bodyModified || (resp.ContentLength <= 0 && resp.Header.Get("Content-Length") == "") {
+						// Return chunked encoded response when we don't know the length of the resp, if the body
+						// has been modified by the response handler or if there is no content length in the response.
+						// We include 0 in resp.ContentLength <= 0 because 0 is the field zero value and some user
+						// might incorrectly leave it instead of setting it to -1 when the length is unknown (but we
+						// also check that the Content-Length header is empty, so there is no issue with empty bodies).
+						resp.ContentLength = -1
+						resp.Header.Del("Content-Length")
+						resp.TransferEncoding = []string{"chunked"}
+					}
+
+					// The MITM'd client speaks HTTP/1.1, but the upstream
+					// response may have been received over HTTP/2. Normalize
+					// the protocol version so resp.Write() produces a valid
+					// HTTP/1.1 status line.
+					resp.Proto = "HTTP/1.1"
+					resp.ProtoMajor = 1
+					resp.ProtoMinor = 1
+
+					if isWebSocketHandshake(resp.Header) {
+						ctx.Logf("Response looks like websocket upgrade.")
+
+						// According to resp.Body documentation:
+						// As of Go 1.12, the Body will also implement io.Writer
+						// on a successful "101 Switching Protocols" response,
+						// as used by WebSockets and HTTP/2's "h2c" mode.
+						wsConn, ok := resp.Body.(io.ReadWriter)
+						if !ok {
+							ctx.Warnf("Unable to use Websocket connection")
+							return false
+						}
+						// Set Body to nil so resp.Write only writes the headers
+						// and returns immediately without blocking on the body
+						// (or else we wouldn't be able to proxy WebSocket data).
+						resp.Body = nil
+						if err := resp.Write(client); err != nil {
+							ctx.Warnf("Cannot write response header from mitm'd client: %v", err)
+							return false
+						}
+						proxy.proxyWebsocket(ctx, wsConn, client)
+						return false
+					}
+
+					if err := resp.Write(client); err != nil {
+						ctx.Warnf("Cannot write response from mitm'd client: %v", err)
+						return false
+					}
+
+					return true
+				}(req); !continueLoop {
+					return
+				}
+			}
+			ctx.Logf("Exiting on EOF")
+		}()
+	case ConnectProxyAuthHijack:
+		_, _ = proxyClient.Write([]byte("HTTP/1.1 407 Proxy Authentication Required\r\n"))
+		todo.Hijack(r, proxyClient, ctx)
+	case ConnectReject:
+		if ctx.Resp != nil {
+			if err := ctx.Resp.Write(proxyClient); err != nil {
+				ctx.Warnf("Cannot write response that reject http CONNECT: %v", err)
+			}
+		}
+		_ = proxyClient.Close()
+	}
+}
+
+func httpError(w io.WriteCloser, ctx *ProxyCtx, err error) {
+	if ctx.Proxy.ConnectionErrHandler != nil {
+		ctx.Proxy.ConnectionErrHandler(w, ctx, err)
+	} else {
+		errorMessage := err.Error()
+		errStr := fmt.Sprintf(
+			"HTTP/1.1 502 Bad Gateway\r\nContent-Type: text/plain\r\nContent-Length: %d\r\n\r\n%s",
+			len(errorMessage),
+			errorMessage,
+		)
+		if _, err := io.WriteString(w, errStr); err != nil {
+			ctx.Warnf("Error responding to client: %s", err)
+		}
+	}
+	if err := w.Close(); err != nil {
+		ctx.Warnf("Error closing client connection: %s", err)
+	}
+}
+
+func copyOrWarn(ctx *ProxyCtx, dst io.Writer, src io.Reader) error {
+	_, err := io.Copy(dst, src)
+	if err != nil && errors.Is(err, net.ErrClosed) {
+		// Discard closed connection errors
+		err = nil
+	} else if err != nil {
+		ctx.Warnf("Error copying to client: %s", err)
+	}
+	return err
+}
+
+func copyAndClose(ctx *ProxyCtx, dst, src halfClosable, wg *sync.WaitGroup) {
+	_, err := io.Copy(dst, src)
+	if err != nil && !errors.Is(err, net.ErrClosed) {
+		ctx.Warnf("Error copying to client: %s", err.Error())
+	}
+
+	_ = dst.CloseWrite()
+	_ = src.CloseRead()
+	wg.Done()
+}
+
+func dialerFromEnv(proxy *ProxyHttpServer) func(network, addr string) (net.Conn, error) {
+	httpsProxy := os.Getenv("HTTPS_PROXY")
+	if httpsProxy == "" {
+		httpsProxy = os.Getenv("https_proxy")
+	}
+	if httpsProxy == "" {
+		return nil
+	}
+	return proxy.NewConnectDialToProxy(httpsProxy)
+}
+
+func (proxy *ProxyHttpServer) NewConnectDialToProxy(httpsProxy string) func(network, addr string) (net.Conn, error) {
+	return proxy.NewConnectDialToProxyWithHandler(httpsProxy, nil)
+}
+
+func (proxy *ProxyHttpServer) NewConnectDialToProxyWithHandler(
+	httpsProxy string,
+	connectReqHandler func(req *http.Request),
+) func(network, addr string) (net.Conn, error) {
+	u, err := url.Parse(httpsProxy)
+	if err != nil {
+		return nil
+	}
+	if u.Scheme == "" || u.Scheme == "http" || u.Scheme == "ws" {
+		if !strings.ContainsRune(u.Host, ':') {
+			u.Host += ":80"
+		}
+		return func(network, addr string) (net.Conn, error) {
+			connectReq := &http.Request{
+				Method: http.MethodConnect,
+				URL:    &url.URL{Opaque: addr},
+				Host:   addr,
+				Header: make(http.Header),
+			}
+			if connectReqHandler != nil {
+				connectReqHandler(connectReq)
+			}
+			c, err := proxy.dial(&ProxyCtx{Req: &http.Request{}}, network, u.Host)
+			if err != nil {
+				return nil, err
+			}
+			_ = connectReq.Write(c)
+			// Read response.
+			// Okay to use and discard buffered reader here, because
+			// TLS server will not speak until spoken to.
+			br := bufio.NewReader(c)
+			resp, err := http.ReadResponse(br, connectReq)
+			if err != nil {
+				_ = c.Close()
+				return nil, err
+			}
+			defer resp.Body.Close()
+			if resp.StatusCode != http.StatusOK {
+				resp, err := io.ReadAll(io.LimitReader(resp.Body, _errorRespMaxLength))
+				if err != nil {
+					return nil, err
+				}
+				_ = c.Close()
+				return nil, errors.New("proxy refused connection" + string(resp))
+			}
+			return c, nil
+		}
+	}
+	if u.Scheme == "https" || u.Scheme == "wss" {
+		if !strings.ContainsRune(u.Host, ':') {
+			u.Host += ":443"
+		}
+		return func(network, addr string) (net.Conn, error) {
+			ctx := &ProxyCtx{Req: &http.Request{}}
+			c, err := proxy.dial(ctx, network, u.Host)
+			if err != nil {
+				return nil, err
+			}
+
+			c, err = proxy.initializeTLSconnection(ctx, c, proxy.Tr.TLSClientConfig, u.Host)
+			if err != nil {
+				return nil, err
+			}
+
+			connectReq := &http.Request{
+				Method: http.MethodConnect,
+				URL:    &url.URL{Opaque: addr},
+				Host:   addr,
+				Header: make(http.Header),
+			}
+			if connectReqHandler != nil {
+				connectReqHandler(connectReq)
+			}
+			_ = connectReq.Write(c)
+			// Read response.
+			// Okay to use and discard buffered reader here, because
+			// TLS server will not speak until spoken to.
+			br := bufio.NewReader(c)
+			resp, err := http.ReadResponse(br, connectReq)
+			if err != nil {
+				_ = c.Close()
+				return nil, err
+			}
+			defer resp.Body.Close()
+			if resp.StatusCode != http.StatusOK {
+				body, err := io.ReadAll(io.LimitReader(resp.Body, _errorRespMaxLength))
+				if err != nil {
+					return nil, err
+				}
+				_ = c.Close()
+				return nil, errors.New("proxy refused connection" + string(body))
+			}
+			return c, nil
+		}
+	}
+	return nil
+}
+
+func TLSConfigFromCA(ca *tls.Certificate) func(host string, ctx *ProxyCtx) (*tls.Config, error) {
+	return func(host string, ctx *ProxyCtx) (*tls.Config, error) {
+		var err error
+		var cert *tls.Certificate
+
+		hostname := stripPort(host)
+		config := defaultTLSConfig.Clone()
+		ctx.Logf("signing for %s", stripPort(host))
+
+		genCert := func() (*tls.Certificate, error) {
+			return signer.SignHost(*ca, []string{hostname})
+		}
+		if ctx.certStore != nil {
+			cert, err = ctx.certStore.Fetch(hostname, genCert)
+		} else {
+			cert, err = genCert()
+		}
+
+		if err != nil {
+			ctx.Warnf("Cannot sign host certificate with provided CA: %s", err)
+			return nil, err
+		}
+
+		config.Certificates = append(config.Certificates, *cert)
+		return config, nil
+	}
+}
+
+func (proxy *ProxyHttpServer) initializeTLSconnection(
+	ctx *ProxyCtx,
+	targetConn net.Conn,
+	tlsConfig *tls.Config,
+	addr string,
+) (net.Conn, error) {
+	// Infer target ServerName, it's a copy of implementation inside tls.Dial()
+	if tlsConfig.ServerName == "" {
+		colonPos := strings.LastIndex(addr, ":")
+		if colonPos == -1 {
+			colonPos = len(addr)
+		}
+		hostname := addr[:colonPos]
+		// Make a copy to avoid polluting argument or default.
+		c := tlsConfig.Clone()
+		c.ServerName = hostname
+		tlsConfig = c
+	}
+
+	tlsConn := tls.Client(targetConn, tlsConfig)
+	if err := tlsConn.HandshakeContext(ctx.Req.Context()); err != nil {
+		return nil, err
+	}
+	return tlsConn, nil
+}
